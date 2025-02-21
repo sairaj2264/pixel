@@ -1,0 +1,125 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f4f7fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Login Container */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Login Box */
+  .login-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  /* Title */
+  .login-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input Groups */
+  .input-group {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #444;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .input-group input:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+  
+  /* Password Wrapper */
+  .password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-wrapper input {
+    width: 100%;
+    padding-right: 40px;
+  }
+  
+  /* Toggle Password Button */
+  .toggle-password {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+    transition: 0.2s;
+  }
+  
+  .toggle-password:hover {
+    color: #4a90e2;
+  }
+  
+  /* Login Button */
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .login-button:hover {
+    background: #357ac5;
+  }
+  
+  /* Forgot Password */
+  .forgot-password {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .forgot-password a {
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
