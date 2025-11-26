@@ -9,7 +9,7 @@ function HeroPage() {
         <h1
           className="text-6xl font-bold bg-gradient-text bg-clip-text text-transparent"
         >
-          Welcome to Our Platform
+          Welcome to Our Platformm
         </h1>
 
         {/* Subtitle */}
